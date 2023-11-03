@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 3</title>
+  <style>
+    body{
+      text-align: center;
+    }
+
+    form{
+      width: 300px;
+      margin: auto;
+      margin-top: 50px;
+      padding: 20px;
+      border: 1px solid black;
+      text-align: left;
+    }
+
+    div{
+      margin: 10px;
+    }
+
+    label{
+      display: inline-block;
+      width: 100px;
+    }
+
+  </style>
+</head>
+<body>
+  <form>
+    <div>
+      <label>1st Number:</label>
+      <input type="number" class="number1" name="1st Number">
+    </div>
+    <div>
+      <label>2nd Number:</label>
+      <input type="number" class="number2" name="2nd Number">
+    </div>
+
+    <button class="multiply" onclick="multiply()">Multiply</button>
+    <button class="divide" onclick="divide()">Divide</button>
+    <br />
+    <p>The result is: </p>
+    <p class="output"></p>
+  </form>
+
+  <script src="index3.js" charset="utf-8"></script>
+</body>
+</html>

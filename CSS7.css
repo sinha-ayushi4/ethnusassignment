@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(126, 8, 111);
+    position: absolute;
+}
+label{
+    width: 130px;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 18px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 27, 161);
+    width: 50vw;
+    height: 70vh;
+    position: relative;
+    left: 50%;
+    margin-top: 100px;
+    
+}
+
+form{
+    width: 50%;
+}
+.register{
+    position: relative;
+    left: 50%;
+}

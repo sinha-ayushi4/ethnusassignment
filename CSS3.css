@@ -1,0 +1,19 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th{
+    color: white;
+    background-color: rgb(48, 177, 121);
+  }
+  td, th {
+    text-align: left;
+    padding: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 8</title>
+  <style>
+    .container{
+      width: 50%;
+      background-image: linear-gradient(yellow, violet);
+      padding: 10px;
+    }
+
+    table{
+      width: 100%;
+    }
+
+    .heading{
+      color: blue;
+      text-align: center;
+    }
+
+    td{
+      padding: 5px 10px;
+    }
+
+    .label{
+      width: 20%;
+      text-align: right;
+      font-weight: 600;
+    }
+
+    .input{
+      width: 50%;
+      text-align: left;
+    }
+
+    .error{
+      width: 25%;
+    }
+
+    input{
+      width: 100%;
+    }
+
+    .checkbox{
+      width: auto;
+    }
+
+    .error{
+      color: red;
+    }
+
+    textarea{
+      width: 100%;
+    }
+
+    .center{
+      text-align: center;
+    }
+
+    .submit{
+      background-color: red;
+      color: white;
+      width: 100px;
+      height: 30px;
+      font-size: 1.1rem;
+      border-radius: 20px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <form>
+      <h1 class="heading">Registration form</h1>
+      <table>
+        <tr>
+          <td class="label">First Name</td>
+          <td class="input"><input type="text" id="first-name"></td>
+          <td class="error first-name-error"></td>
+        </tr>
+        <tr>
+          <td class="label">Last Name</td>
+          <td class="input"><input type="text" id="last-name"></td>
+          <td class="error last-name-error"></td>
+        </tr>
+        <tr>
+          <td class="label">Email</td>
+          <td class="input"><input type="email" id="email"></td>
+          <td class="error email-error"></td>
+        </tr>
+        <tr>
+          <td class="label">Password</td>
+          <td class="input"><input type="password" id="password"></td>
+          <td class="error password-error"></td>
+        </tr>
+        <tr>
+          <td class="label">Re-enter Password</td>
+          <td class="input"><input type="password" id="confirmation"></td>
+          <td class="error confirmation-error"></td>
+        </tr>
+        <tr>
+          <td class="label">Gender</td>
+          <td class="input">
+            <input type="checkbox" class="checkbox">
+            <label>Male</label>
+            <br />
+            <input type="checkbox" class="checkbox">
+            <label>Female</label>
+          </td>
+          <td class="error confirmation-error"></td>
+        </tr>
+        <tr>
+          <td class="label">Age</td>
+          <td class="input"><input type="number" id="age"></td>
+          <td class="error age-error"></td>
+        </tr>
+        <tr>
+          <td class="label">Phone Number</td>
+          <td class="input"><input type="number" id="phone"></td>
+          <td class="error phone-error"></td>
+        </tr>
+        <tr>
+          <td class="label">Address</td>
+          <td class="input"><textarea rows="7" id="address"></textarea></td>
+          <td class="error address-error"></td>
+        </tr>
+          <td class="label">State</td>
+          <td class="input"><input type="text" id="state"></td>
+          <td class="error state-error"></td>
+        </tr>
+        <tr>
+          <td class="label">Country</td>
+          <td class="input">
+            <select>
+              <option>Choose your country</option>
+              <option>India</option>
+              <option>USA</option>
+              <option>Australia</option>
+              <option>Japan</option>
+            </select>
+          </td>
+          <td class="error"></td>
+        </tr>
+        <tr>
+          <td class="label">Language known</td>
+          <td class="input">
+            <input type="checkbox" class="checkbox">
+            <label>English</label>
+            <input type="checkbox" class="checkbox">
+            <label>Kannada</label>
+            <input type="checkbox" class="checkbox">
+            <label>Hindi</label>
+            <input type="checkbox" class="checkbox">
+            <label>Telugu</label>
+          </td>
+          <td class="error"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <input type="checkbox" class="checkbox declaration">
+            <label>I hereby declare all the given details are true</label>
+          </td>
+        </tr>
+      </table>
+
+      <div class="center">
+        <p>Login to <a href="https://ethnus.com/">Ethnus</a> website</p>
+        <button type="submit" class="submit">Register</button>
+      </div>
+      </form>
+  </div>
+
+  <script src="index8.js" charset="utf-8"></script>
+</body>
+</html>

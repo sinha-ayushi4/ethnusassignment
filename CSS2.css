@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+}
+
+a{
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.verticalnavbar{
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    background-color: rgb(164, 228, 207);
+}
+
+.verticalnavbar li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 40px;
+}
+
+.verticalnavbar li:hover{
+    background-color: rgb(137, 137, 60);
+    color: white;
+}
+
+.horizontalnavbar{
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(200, 226, 121);
+}
+
+.horizontalnavbar li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+}
+
+.horizontalnavbar a:hover{
+    background-color: rgb(188, 178, 178);
+    color: wheat;
+}

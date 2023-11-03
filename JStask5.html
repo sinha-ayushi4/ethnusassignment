@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 5</title>
+  <style>
+    td{
+      margin: 20px;
+    }
+
+    .border-red{
+      border: 2px solid red;
+    }
+
+    .submit{
+      text-align: center;
+    }
+
+    span{
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <table>
+      <tr>
+        <td><label>Name:</label></td>
+        <td><input type="text" id="name"></td>
+        <td><span id="name-error"></span></td>
+      </tr>
+      <tr>
+        <td><label>Email:</label></td>
+        <td><input type="email" id="email"></td>
+        <td><span id="email-error"></span></td>
+      </tr>
+      <tr>
+        <td><label>Website:</label></td>
+        <td><input type="text" id="website"></td>
+        <td><span id="website-error"></span></td>
+      </tr>
+      <tr>
+        <td><label>Message:</label></td>
+        <td><textarea rows="4" id="message"></textarea></td>
+        <td><span id="message-error"></span></td>
+      </tr>
+      <tr>
+        <td class="submit" colspan="2"><button type="submit">Submit</button></td>
+      </tr>
+    </table>
+  </form>
+
+  <script src="index5.js" charset="utf-8"></script>
+</body>
+</html>
